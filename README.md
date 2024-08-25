@@ -13,3 +13,15 @@ Here are the steps to get it working:
 4) type `make`
 5) type `sudo make install`
 
+
+
+
+```
+cd /tmp
+sudo bash
+git clone https://github.com/mkubecek/vmware-host-modules.git
+cd vmware-host-modules
+git switch workstation-17.5.1
+make
+make install
+```
